@@ -443,7 +443,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     color: white;
     position: absolute;
     top: 156px;
-    margin-left: 37px;
+    margin-left: 18px;
 }
 
 
@@ -459,7 +459,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     color: white;
     position: absolute;
     top: 156px;
-    margin-left: 37px;
+    margin-left: 18px;
     background-color: rgb(93, 88, 240);
 }
 
@@ -476,7 +476,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     color: white;
     position: absolute;
     top: 156px;
-    margin-left: 37px;
+    margin-left: 18px;
 }
 
 
@@ -493,7 +493,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     color: white;
     position: absolute;
     top: 156px;
-    margin-left: 37px;
+    margin-left: 18px;
 }
 
 
@@ -751,4 +751,19 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         flex-direction: column;
     }
 
+
+}
+
+@media  screen and (max-width: 390px)  {
+    .button2, .button3, .button4, .button5 {
+        top: 82px;
+    }
+    
+    .story2_h1, .story3_h1, .story4_h1, .story5_h1 {
+        font-size: 9px;
+        line-height: 20px;  
+        margin: 20px 20px 24px; 
+    }
+
+    
 }
